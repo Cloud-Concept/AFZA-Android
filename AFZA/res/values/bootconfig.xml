@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="remoteAccessConsumerKey">3MVG92u_V3UMpV.jobM2LExnJh9td2axxuQfb4.jBaqS6d4OwL0S6jQIqVtrjDPAD3EiqpLnJdmq7w4FzPLWd</string>
+    <string name="oauthRedirectURI">afzamobile://auth/success</string>
+    <string-array name="oauthScopes">
+        <item>api</item>
+    </string-array>
+    <string name="androidPushNotificationClientId">1037041863037</string>
+</resources>

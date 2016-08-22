@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+	package="com.cloudconcept"
+	android:versionCode="1"
+	android:versionName="1.0"
+	android:installLocation="internalOnly">
+
+	<application android:icon="@drawable/sf__icon"
+	    android:label="@string/app_name"
+		android:name=".AFZAApp"
+		android:manageSpaceActivity="com.salesforce.androidsdk.ui.ManageSpaceActivity"
+		android:theme="@style/AppTheme2">
+
+		<!-- Launcher screen -->
+	</application>
+
+    <uses-sdk android:minSdkVersion="19"
+        android:targetSdkVersion="23" />
+
+    <!--
+        GCM permission to ensure that only this application can
+        receive the messages and registration result. This must be of
+        the format <app-package-name>.C2D_MESSAGE for it to work.
+    -->
+    <permission android:name="com.cloudconcept.C2D_MESSAGE"
+        android:protectionLevel="signature" />
+
+    <uses-permission android:name="com.cloudconcept.C2D_MESSAGE" />
+</manifest>
